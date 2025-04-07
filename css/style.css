@@ -222,17 +222,13 @@ header {
     color: #fff;
 }
 
-.nav-item.active {
-    color: #222;
+.nav-item a {
+    color: white;
 }
 
 @media (min-width: 768px) {
     .product-grid {
         grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    }
-    
-    .bottom-nav {
-        display: none;
     }
     
     .container {
